@@ -1,0 +1,153 @@
+// bg
+.bg__cards{
+    background: #E5E6E6;
+    width: 350px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 31px;
+}
+// text
+.card__text h2{
+    width: 215px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #282828;
+    margin-bottom: 16px;
+}
+// button
+.button2{
+    margin-bottom: 50px;
+    border: 1.5px solid #000;
+}
+// button2
+.button2:hover{
+    border: 1.5px solid #000 transparent;
+}
+// img
+.img1 {
+    margin-left: 96px;
+    margin-top: 26px;
+}
+// img
+.img2{
+    width: 100%;
+}
+// img
+.img3{
+    margin-left: 50px;
+}
+// all
+.all3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 114px;
+}
+// p
+.pr{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 60px;
+    color: #9A6437;
+    margin-bottom: 21px;
+}
+// all
+.stul__img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+// icon
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: #000;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+// shop
+.shop{
+    text-decoration: none;
+}
+// stul
+.img__suls{
+    display: flex;
+    justify-content: center;
+    background: #F7F7F7;
+    padding-top: 65px;
+    padding-bottom: 31px;
+    width: 255px;
+    height: 260px;
+}
+// cx
+.cx{
+    color: #fff;
+    font-size: 18px;
+}
+// h4
+.tada__text h4{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #282828;
+    margin-bottom: 10px;
+    margin-top: 6px;
+}
+// star
+.star{
+    text-decoration: none;
+}
+// star-one
+.star__one{
+    display: flex;
+    // align-items: center;
+    justify-content: space-between;
+}
+// icon
+.ccx{
+    color: #F5CC26;
+}
+// p
+.star__one p{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #1E1D1D;
+}
+// del
+del{
+    color: #737373;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #1E1D1D;
+    opacity: 0.5;
+}
+// responsive
+
+@media only screen and (max-width:335px){
+    .img1{
+        margin-left: 70px;
+    }
+    .img3{
+        margin-left: 25px;
+    }
+    .bg__cards{
+        width: 100%;
+    }
+}

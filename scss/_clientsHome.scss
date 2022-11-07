@@ -1,0 +1,144 @@
+// clients
+.clients{
+    background-image: url(../img/bg-img-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 82px;
+    padding-top: 73px;
+    margin-bottom: 106px;
+}
+// all
+.all__clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 95px;
+}
+// h4
+.all__clients h4{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 60px;
+    color: #E0E0E0;
+}
+ // p
+.all__clients h3{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 60px;
+    width: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 100px;
+}
+// img
+.img__clients{
+    background: #fff;
+    width: 255px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+// img2
+.img__clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+// img3
+.img__pr1{
+    margin-top: -60px;
+    margin-bottom: 20px;
+    background: #cfcece;
+    border-radius: 50%;
+    z-index: 2;
+}
+// h4
+.clients__text h4{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #1B1A1A;
+    margin-bottom: 6px;
+}
+// p
+.clients__text p{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    margin-bottom: 4px;
+    text-align: center;
+}
+// star
+.star__clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin-bottom: 7px;
+}
+// p2
+.pr__clients{
+    width: 100%;
+}
+// all6
+.all6{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.all__clients-card{
+    transition: all .7s ease-in-out;
+}
+// hover
+.all__clients-card:hover{
+    transform: translateY(-35px);
+    box-shadow: #87878788 10px 10px 15px 10px;
+}
+// menu-button
+.all7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+// hover
+.button4{
+    background: #fff;
+    border: 1.3px solid #000;
+    color: #000;
+}
+.button4:hover{
+    background: #000;
+    color: #fff;
+}
+// responsive
+@media only screen and (max-width:1145px){
+    .all6{
+        gap: 84px;
+    }
+    .clients{
+        background-position: right;
+    }
+}
+
+@media only screen and (max-width:418px){
+    .all7{
+        justify-content: center;
+    }
+}

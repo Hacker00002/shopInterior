@@ -1,0 +1,95 @@
+// read__tex
+.read__text{
+    margin-top: 100px;
+    margin-bottom: 45px;
+}
+// h4 
+.read__text h4{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #9A6437;
+}
+// h3
+.read__text h3{
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 60px;
+text-align: center;
+color: #1B1A1A;
+}
+// contact
+.jhon{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+// contact__read
+.contact__read{
+    display: flex;
+    align-items: center;
+}
+// p
+.contact__read p{
+    margin-bottom: 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+    color: #808080;
+}
+// bg
+.bc{
+    border: 1px solid #ACACAC;
+    width: 350px;
+    padding-top: 37px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+// p
+.pc_text p{
+    margin-bottom: 13px;
+    width: 291px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2E2D2D;
+    margin-top: 10px;
+}
+// icon
+.cxx{
+    color: #9A6437;
+}
+// all
+.read__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+// all9
+.all9{
+    margin-bottom: 222px;
+}
+// hover
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.0s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.3);
+}

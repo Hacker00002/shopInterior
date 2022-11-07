@@ -1,0 +1,56 @@
+// bg
+.bg__free{
+    background: #1C1B1B;
+    padding-top: 61px;
+    padding-bottom: 65px;
+    padding-left: 51px;
+    padding-right: 51px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 111px;
+}
+// all
+.free__text{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 100%;
+}
+// all1
+.m1__text{
+    display: flex;
+    flex-direction: column;
+    border-right: 1.5px solid #fff;
+    padding-right: 20px;
+}
+// h4 
+.m1__text h4{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 0;
+}
+// p
+.m1__text p{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+// responsive
+@media only screen and (max-width:1155px){
+    .bg__free{
+        flex-direction: column;
+        gap: 60px;
+        flex-wrap: nowrap;
+    }
+} 

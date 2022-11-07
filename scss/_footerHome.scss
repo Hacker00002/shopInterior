@@ -1,0 +1,128 @@
+// footer
+.logo__img-5 h4{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 60px;
+    letter-spacing: 0.035em;
+    color: #555555;
+    margin-bottom: 0;
+}
+// all
+.logo__img-5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+// h2
+.icon__3 h2{
+    margin-bottom: 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #1B1A1A;
+    margin-top: 15px;
+}
+// p
+.icon__3 p{
+    width: 406px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #5E5E5E;
+}
+// p
+.p{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+// button
+form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+// input
+input{
+    padding-left: 13px;
+    padding-right: 123px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0.8px solid #5A5A5A;
+    border-radius: 4px;
+    background: #DDD7D1;
+    color: #000;
+}
+// button
+button{
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 0.8px solid #5A5A5A;
+    border-radius: 4px;
+    background: #DDD7D1;
+    color: #000;
+}
+// placeholder
+::placeholder{
+    color: #000;
+}
+// all10
+.footer{
+    background: #DDD7D1;
+    border-radius: 100% 100% 0 0/50% 50% 0 0;
+    padding-top: 88px;
+    padding-bottom: 78px;
+}
+// icon
+.google__icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+// p
+.google__icon p{
+    margin-bottom: 0;
+}
+// icon2
+a{
+    text-decoration: none;
+}
+.lin{
+    font-size: 25px;
+    color: #696969;
+}
+// responsive
+@media only screen and (max-width:445px){
+    .icon__3 h2{
+         width: 100%;
+    }
+    form{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    button{
+        width: 130px;
+        padding: 5px;
+    }
+    .google__icon{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+        justify-content: center;
+    }
+    .google__icon p{
+        text-align: center;
+        width: 100%;
+    }
+}
